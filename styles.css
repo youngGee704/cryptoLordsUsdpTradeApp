@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    padding-top: 50px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #2c3e50, #4ca1af);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+}
+
+.welcome-container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 40px;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    width: 100%;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+h1 {
+    font-size: 2.5em;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #ffffff;
+    letter-spacing: 1px;
+}
+
+p {
+    font-size: 1.2em;
+    font-weight: 300;
+    margin-bottom: 30px;
+    color: #e0e0e0;
+}
+
+.button-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+/* Button styling */
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.1em;
+    background: linear-gradient(to right, #ff512f, #dd2476);
+    color: #fff;
+    border-radius: 30px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+}
+
+.lord-icon {
+    margin-right: 8px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa; /* Light background color for better contrast */
+}
+
+.question-container {
+    max-width: 600px; /* Limit the width for better readability */
+    margin: 20px auto; /* Center the container */
+    padding: 20px; /* Add padding to the container */
+    background-color: #e98b8b; /* White background for the container */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+h1 {
+    font-weight: 700;
+    margin-bottom: 10px; /* Space between the title and paragraph */
+}
+
+p {
+    margin-bottom: 20px; /* Space between the paragraph and buttons */
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between; /* Evenly distribute buttons */
+    margin-bottom: 20px; /* Space below the button group */
+}
+
+.btn {
+    padding: 10px 20px; /* Padding for the buttons */
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff; /* Button text color */
+    background-color: #28a745; /* Green background color */
+    border-radius: 5px; /* Rounded button corners */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.btn:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+.back-button {
+    text-align: center; /* Center the back button */
+}
+
+@media (max-width: 600px) {
+    .button-group {
+        flex-direction: column; /* Stack buttons on small screens */
+        align-items: center; /* Center align buttons */
+    }
+
+    .btn {
+        width: 100%; /* Full width for buttons on small screens */
+        margin-bottom: 10px; /* Space between stacked buttons */
+    }
+}
